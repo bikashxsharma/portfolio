@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+.header-color{
+    background: #B24592;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.landing-grid{
+background: #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.banner-text{
+    color:white;
+    font-size: 2rem;
+}
+.banner-text i{
+    font-size: 3rem;
+    color: white;
+    padding:2rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/*hide material icon on screen above 1024px*/
+.side-nav{
+    display:none;
+}
+.material-icons{
+    display:none;
+    pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+
+/*For smaller screens below 1024px*/
+
+@media only screen and (max-width: 1024px) {
+    .side-nav{
+        display:inline-block;
+    }
+    .material-icons{
+        display:inline-block;
+        pointer-events: all;
+    }
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
