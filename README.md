@@ -1,4 +1,5 @@
-This is my portfolio-->
+This is my portfolio as a front-end developer. 
+I did this portfolio in React. 
 
 ## Portofolio Design process : 
 
