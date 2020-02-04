@@ -14,8 +14,17 @@ class LandingPage extends React.Component{
                         {/* Main Banner texts */}
                         <div className="banner-text">
                             <h2>Front-end developer with UX/UI knoweldge</h2>
-                        <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | UX/UI Design</p>
+                            <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | UX/UI Design</p>
 
+                        {/* Social Icons and links */}
+                            <div className="social-links">
+                                <a href="https://www.linkedin.com/in/bikashxsharma/"
+                                target="_blank">
+                                    <i class="fa fa-linkedin-square"></i>
+                                </a>
+                                <a href="https://github.com/bikashxsharma/"><i class="fa fa-github-square"></i></a>
+                            </div>
+                        
                         </div>
                         {/* Banner text ends */}
                     </Cell>

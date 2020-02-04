@@ -15,3 +15,5 @@ import 'react-mdl/extra/material.js';
 4. Created component for each pages, resume.js, aboutme.js, projects.js, contact.js
 5. Added react router # npm install --save react-router-dom
 6. Created main.js file for importing all page component and adding switch to route them
+7. Used Grid and Cell from React MDL
+8. 

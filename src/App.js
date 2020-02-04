@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
         <div className="demo-big-content">
             <Layout>
-                <Header className="header-color" title="Title" scroll>
+                <Header className="header-color" title=" " scroll>
                     <Navigation>
                         <Link to="/">Home</Link>
                         <Link to="/projects">Projects</Link>
@@ -19,9 +19,10 @@ class App extends React.Component {
                         <Link to="/contact">Contact</Link>
                     </Navigation>
                 </Header>
-                <Drawer title="Title">
+                <Drawer className="side-nav" title=" ">
                     <Navigation>
-                    <Link to="/projects">Projects</Link>
+                       <Link to="/">Home</Link>
+                        <Link to="/projects">Projects</Link>
                         <Link to="/aboutme">About Me</Link>
                         <Link to="/resume">Resume</Link>
                         <Link to="/contact">Contact</Link>
