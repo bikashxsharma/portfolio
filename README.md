@@ -11,5 +11,7 @@ I did this portfolio in React.
 -- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 import 'react-mdl/extra/material.css';
 import 'react-mdl/extra/material.js';
+
 4. Created component for each pages, resume.js, aboutme.js, projects.js, contact.js
-5. 
+5. Added react router # npm install --save react-router-dom
+6. Created main.js file for importing all page component and adding switch to route them
