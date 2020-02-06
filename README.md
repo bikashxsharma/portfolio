@@ -1,5 +1,5 @@
 This is my portfolio as a front-end developer. 
-I did this portfolio in React. 
+I did this portfolio in React. Following some tutorial on YouTube.
 
 ## Portofolio Design process : 
 # File tree:
@@ -16,4 +16,4 @@ import 'react-mdl/extra/material.js';
 5. Added react router # npm install --save react-router-dom
 6. Created main.js file for importing all page component and adding switch to route them
 7. Used Grid and Cell from React MDL
-8. 
+8. Project page consist of states to hold active tabs. Used class constructor for that. And used tabs from react MDL.
