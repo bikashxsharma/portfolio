@@ -13,78 +13,103 @@ class Resume extends Component {
           <Cell col={4}>
             <div style={{textAlign: 'center'}}>
               <img
-                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                src="https://avatars1.githubusercontent.com/u/36207673?s=460&v=4"
                 alt="avatar"
-                style={{height: '200px'}}
+                style={{ width:'300px'}}
                  />
             </div>
 
             <h2 style={{paddingTop: '2em'}}>Bikash Sharma</h2>
             <h4 style={{color: 'grey'}}>Front-end Developer & UX/UI Designer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I am a front-end developer in compiling. I have several years of experience designing websites. </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <h5>Address</h5>
-            <p>1 Hacker Way Menlo Park, 94025</p>
+            <h5>Located</h5>
+            <p>Helsinki, Finland</p>
             <h5>Phone</h5>
-            <p>(123) 456-7890</p>
+            <p>0440347283</p>
             <h5>Email</h5>
-            <p>someone@example.com</p>
-            <h5>Web</h5>
-            <p>mywebsite.com</p>
+            <p>bikashxsharma[att]gmail.com</p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
+
+             <h2>Experience</h2>
+
+                 <Experience
+                    startYear={2016}
+                    endYear={2020}
+                    jobName="Velkko Oy"
+                    jobTitle="Web Developer & UX/UI Designer"
+                    jobDescription="Velkko is a digital agency which focuses on web design and digital marketing. I was engaged in developing and enhacing UX's for clients website and responsive web applications. I am also incharge of maintaining client's hosting, domain name and other technical requirement such as reservation system. I have designed several websites using bootstrap framework and Wordpress. I have also engaged in developing custom CMS for some of the restaurant's website.  "
+                    mainHihlights=""
+                    />
+
+                <Experience
+                startYear={2017}
+                endYear={2019}
+                jobName="Doctual Oy"
+                jobTitle="Product Designer"
+                jobDescription="I was the Product Designer in Doctual. Doctual was a company building platform for lawyers and startups. I managed product development and collaborated with stakeholders. Beside product design tools, I used google Apps, Digital Ocean, Jira and product management systems."
+                mainHihlights=""
+                />
+
+            
+                    <hr style={{borderTop: '3px solid #e22947'}} />
             <h2>Education</h2>
 
 
             <Education
-              startYear={2002}
-              endYear={2006}
-              schoolName="My University"
-              schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+              startYear={2020}
+              endYear={'Present'}
+              schoolName="Haaga-Helia"
+              degreeName="Masters in Business Technology"
+              schoolDescription="This is a Master Degree in Business Technologies. Main courses are:"
+              mainHihlights="Robotic Automation | Data Analytics | Digital Service Design | AI in Modern Business"
                />
 
                <Education
-                 startYear={2007}
-                 endYear={2009}
-                 schoolName="My 2nd University"
-                 schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                 startYear={2012}
+                 endYear={2016}
+                 schoolName="Metropolia UAS"
+                 degreeName="Bachelor in Media Engineering"
+                 schoolDescription="Degree in Media Engineering was mix of IT and Media. Main hightlihts were : "
+                 mainHihlights="Web Programming | Project Management | Software Production | Usability and UX design | Media Technolgoy | Hybrid Media and Augmented Reality."
                   />
-                <hr style={{borderTop: '3px solid #e22947'}} />
 
-              <h2>Experience</h2>
+                
+                <Education
+                 startYear={2009}
+                 endYear={20012}
+                 schoolName="Turku UAS"
+                 degreeName="Bachelor in IT"
+                 schoolDescription="At Turku University of Applied Sciences, I studied several courses. Main hightlihts were : "
+                 mainHihlights="Networking | Project Management | Basics of Programming | Business Development | Engineering Mathematics."
+                  />
+                
 
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
-
-              <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-                />
+             
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
+                skill="HTML/CSS"
                 progress={100}
                 />
                 <Skills
-                  skill="HTML/CSS"
-                  progress={80}
+                  skill="Bootstrap"
+                  progress={100}
                   />
                   <Skills
-                    skill="NodeJS"
-                    progress={50}
+                    skill="JavaScript"
+                    progress={80}
                     />
                     <Skills
                       skill="React"
-                      progress={25}
+                      progress={65}
+                      />
+                      <Skills
+                      skill="PHP/Mysql"
+                      progress={45}
                       />
 
 

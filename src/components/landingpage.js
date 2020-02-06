@@ -11,9 +11,10 @@ class LandingPage extends React.Component{
                         <div className="hero-img">
                             <img src="https://avatars1.githubusercontent.com/u/36207673?s=460&v=4" alt="Bikash Sharma's photo"/>
                         </div>
-                        <div className="name-title">Bikash Sharma</div>
+                       
                         {/* Main Banner texts */}
                         <div className="banner-text">
+                        <div className="name-title">Bikash Sharma</div>
                             <h2>Front-end developer with UX/UI knoweldge</h2>
                             <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | UX/UI Design</p>
 
@@ -28,7 +29,7 @@ class LandingPage extends React.Component{
                                 target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-github-square"></i></a>
 
-                                <a href="https://github.com/bikashxsharma/" 
+                                <a href="https://www.freecodecamp.org/bikashxsharma/" 
                                 target="_blank" rel="noopener noreferrer">
                                 <i class="fa fa-free-code-camp"></i></a>
                             </div>
