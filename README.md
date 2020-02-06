@@ -1,5 +1,5 @@
 This is my portfolio as a front-end developer. 
-I did this portfolio in React. 
+I did this portfolio in React. Following some tutorial on YouTube.
 
 ## Portofolio Design process : 
 # File tree:
