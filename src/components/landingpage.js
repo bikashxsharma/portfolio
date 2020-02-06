@@ -4,13 +4,14 @@ import { Grid, Cell } from 'react-mdl';
 class LandingPage extends React.Component{ 
     render(){
         return(
-            <div style={{width: '100%', margin:'auto'}}>
+            <div className="landing-content">
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         {/* Main contents here */}
                         <div className="hero-img">
                             <img src="https://avatars1.githubusercontent.com/u/36207673?s=460&v=4" alt="Bikash Sharma's photo"/>
                         </div>
+                        <div className="name-title">Bikash Sharma</div>
                         {/* Main Banner texts */}
                         <div className="banner-text">
                             <h2>Front-end developer with UX/UI knoweldge</h2>
@@ -19,10 +20,17 @@ class LandingPage extends React.Component{
                         {/* Social Icons and links */}
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/bikashxsharma/"
-                                target="_blank">
+                                target="_blank" rel="noopener noreferrer">
                                     <i class="fa fa-linkedin-square"></i>
                                 </a>
-                                <a href="https://github.com/bikashxsharma/"><i class="fa fa-github-square"></i></a>
+
+                                <a href="https://github.com/bikashxsharma/" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fa fa-github-square"></i></a>
+
+                                <a href="https://github.com/bikashxsharma/" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fa fa-free-code-camp"></i></a>
                             </div>
                         
                         </div>

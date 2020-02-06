@@ -1,22 +1,70 @@
+html, body{
+    margin:0px;
+    height: 100%;
+
+}
 .header-color{
     background: #B24592;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/*==========landing page CSS =========*/
+
+.landing-content{
+    width:100%;
+    margin:auto;
+    height:100%;
+}
+
 .landing-grid{
 background: #B24592;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+text-align: center;
+position:fixed;
+top:0;
+left:0;
+height:100%;
+width:100%;
+
+}
+.hero-img{
+    text-align:center;
+    max-width: 600px;
+    margin:2rem auto;
+    padding-top:10%;
+}
+.name-title{
+    color:rgb(214, 204, 204);
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight:600px;
+
 }
 .banner-text{
     color:white;
     font-size: 2rem;
+    margin: 2rem auto;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .banner-text i{
     font-size: 3rem;
     color: white;
     padding:2rem;
+    
 }
+/*==========landing page CSS =========*/
+
+/*==========Project page =========*/
+.project-grid{
+    display:flex;
+    margin:auto;
+}
+
+
+/*==========Project page =========*/
 
 /*hide material icon on screen above 1024px*/
 .side-nav{
@@ -27,7 +75,19 @@ background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, F
     pointer-events: none;
 }
 
+/*==========Card=========*/
+.project-card{
+    min-width: 450px;
+    margin:2rem;
+    padding:1.2rem;
+}
+.card-title{
+    color:#FFF;
+    height:176px;
 
+
+}
+/*==========Card =========*/
 
 /*For smaller screens below 1024px*/
 
@@ -39,4 +99,104 @@ background: linear-gradient(to right, #F15F79, #B24592); /* W3C, IE 10+/ Edge, F
         display:inline-block;
         pointer-events: all;
     }
+  }
+
+
+  .projects-grid {
+    display: flex;
+  }
+  
+  /* Resume Page css */
+  .resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+  }
+  
+  /* contact page css */
+  
+  .contact-body {
+    margin: auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+  }
+  
+  .contact-grid {
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    margin-bottom: 20px;
+  }
+  
+  .contact-grid h2 {
+    font-family: 'Anton', sans-serif;
+  }
+  
+  .contact-grid p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+  }
+  
+  .contact-grid hr {
+    border-top: 5px dotted black;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .contact-list i {
+    font-size: 66px;
+    padding-right: 5rem;
+  }
+  
+  
+  /* contact page css */
+  
+  .avatar-img {
+    height: 250px;
+    padding-top: 5em;
+  }
+  
+  .banner-text {
+    background-color: black;
+    opacity: .8;
+    width: 75%;
+    margin: auto;
+    border-radius: 10px;
+  }
+  
+  .banner-text h1 {
+    font-size: 66px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .banner-text hr {
+    border-top: 5px dotted white;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .banner-text p {
+    color: white;
+    font-size: 20px;
+    padding: 1em;
+  }
+  
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
   }
