@@ -16,7 +16,7 @@ class App extends React.Component {
                         <Link to="/projects">Projects</Link>
                         {/*<Link to="/aboutme">About Me</Link>*/}
                         <Link to="/resume">Resume</Link>
-                        <Link to="/contact">Contact</Link>
+                        {/* <Link to="/contact">Contact</Link>*/}
                     </Navigation>
                 </Header>
                 <Drawer className="side-nav" title=" ">
@@ -25,7 +25,7 @@ class App extends React.Component {
                         <Link to="/projects">Projects</Link>
                        {/*<Link to="/aboutme">About Me</Link>*/}
                         <Link to="/resume">Resume</Link>
-                        <Link to="/contact">Contact</Link>
+                        {/* <Link to="/contact">Contact</Link>*/}
                     </Navigation>
                 </Drawer>
                 <Content>

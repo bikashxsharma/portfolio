@@ -22,7 +22,7 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Bikash Sharma</h2>
             <h4 style={{color: 'grey'}}>Front-end Developer & UX/UI Designer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+            <p>I am a front-end developer in compiling. I have several years of experience designing websites. </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Located</h5>
             <p>Helsinki, Finland</p>
@@ -41,7 +41,7 @@ class Resume extends Component {
                     endYear={2020}
                     jobName="Velkko Oy"
                     jobTitle="Web Developer & UX/UI Designer"
-                    jobDescription="Velkko is a digital agency which focuses on web design and digital marketing. "
+                    jobDescription="Velkko is a digital agency which focuses on web design and digital marketing. I was engaged in developing and enhacing UX's for clients website and responsive web applications. I am also incharge of maintaining client's hosting, domain name and other technical requirement such as reservation system. I have designed several websites using bootstrap framework and Wordpress. I have also engaged in developing custom CMS for some of the restaurant's website.  "
                     mainHihlights=""
                     />
 
