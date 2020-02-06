@@ -19,9 +19,8 @@ class Projects extends Component {
             <CardText>
               A complete
             </CardText>
-            <CardActions border>
+            <CardActions className="card-action" border>
               <Button colored>GitHub</Button>
-              <Button colored>CodePen</Button>
               <Button colored>Live Demo</Button>
             </CardActions>
             <CardMenu style={{color: '#fff'}}>
