@@ -111,6 +111,10 @@ class Resume extends Component {
                       skill="PHP/Mysql"
                       progress={45}
                       />
+                    <Skills
+                      skill="Wordpress"
+                      progress={50}
+                      />
 
 
           </Cell>
