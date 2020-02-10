@@ -146,6 +146,14 @@ width:100%;
         display:flex;
         flex-direction: column;
     }
+    .social-links{
+      display:flex;
+      flex-direction: column;
+
+    }
+    .grid-each-card{
+      margin-bottom: 2rem!important;
+    }
   }
 
 /*For exceptional bigger screens*/

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell, Button } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
@@ -22,7 +22,12 @@ class Resume extends Component {
             <h2 style={{paddingTop: '2em'}}>Bikash Sharma</h2>
             <h4 style={{color: 'grey'}}>Front-end Developer & UX/UI Designer</h4>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
-            <p>I am a front-end developer in compiling. I have several years of experience designing websites. </p>
+            <p>A <strong>front-end developer and UX designer </strong> living in Helsinki. I have <strong>years of experience</strong>
+                as a <strong>web designer</strong> mainly in <strong>HTML/CSS, Bootstrap and WordPress</strong>. Have founded
+                freelance digital agency and I understand the pressure of working with clients and
+                deadline. I have <strong>to-do attitude</strong> to work alone or in a team to successfully deliver a
+                given task. 
+            </p>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
             <h5>Located</h5>
             <p>Helsinki, Finland</p>
@@ -30,6 +35,8 @@ class Resume extends Component {
             <p>0440347283</p>
             <h5>Email</h5>
             <p>bikashxsharma[att]gmail.com</p>
+           
+            <Button colored onClick={()=> window.open("https://bikashxsharma.com/pf/fe/front_end_BikashSharma.pdf", "_blank")}>Download CV</Button>
             <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}/>
           </Cell>
           <Cell className="resume-right-col" col={8}>
