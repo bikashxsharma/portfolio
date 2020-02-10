@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bikashxsharma.github.io/static/css/main.6a5dbf70.chunk.css",
+    "main.js": "/bikashxsharma.github.io/static/js/main.c2a4aa5d.chunk.js",
+    "main.js.map": "/bikashxsharma.github.io/static/js/main.c2a4aa5d.chunk.js.map",
+    "runtime-main.js": "/bikashxsharma.github.io/static/js/runtime-main.39fce637.js",
+    "runtime-main.js.map": "/bikashxsharma.github.io/static/js/runtime-main.39fce637.js.map",
+    "static/css/2.a6bc1c31.chunk.css": "/bikashxsharma.github.io/static/css/2.a6bc1c31.chunk.css",
+    "static/js/2.b9837596.chunk.js": "/bikashxsharma.github.io/static/js/2.b9837596.chunk.js",
+    "static/js/2.b9837596.chunk.js.map": "/bikashxsharma.github.io/static/js/2.b9837596.chunk.js.map",
+    "index.html": "/bikashxsharma.github.io/index.html",
+    "precache-manifest.483f5685537ebb9e38eb66b46fea33f4.js": "/bikashxsharma.github.io/precache-manifest.483f5685537ebb9e38eb66b46fea33f4.js",
+    "service-worker.js": "/bikashxsharma.github.io/service-worker.js",
+    "static/css/2.a6bc1c31.chunk.css.map": "/bikashxsharma.github.io/static/css/2.a6bc1c31.chunk.css.map",
+    "static/css/main.6a5dbf70.chunk.css.map": "/bikashxsharma.github.io/static/css/main.6a5dbf70.chunk.css.map",
+    "static/js/2.b9837596.chunk.js.LICENSE.txt": "/bikashxsharma.github.io/static/js/2.b9837596.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.39fce637.js",
+    "static/css/2.a6bc1c31.chunk.css",
+    "static/js/2.b9837596.chunk.js",
+    "static/css/main.6a5dbf70.chunk.css",
+    "static/js/main.c2a4aa5d.chunk.js"
+  ]
+}
