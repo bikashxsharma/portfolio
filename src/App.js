@@ -15,7 +15,8 @@ class App extends React.Component {
                         <Link to="/">Home</Link>
                         <Link to="/projects">Projects</Link>
                         {/*<Link to="/aboutme">About Me</Link>*/}
-                        <Link to="/resume">Resume</Link>
+                        <Link to="/resume">About me</Link>
+                        <Link onClick={()=> window.open("https://bikashxsharma.com/pf/fe/front_end_BikashSharma.pdf", "_blank")} > Download CV</Link>
                         {/* <Link to="/contact">Contact</Link>*/}
                     </Navigation>
                 </Header>

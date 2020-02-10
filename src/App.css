@@ -120,6 +120,10 @@ width:100%;
     margin:2rem;
     padding:1.2rem;
 }
+.projects-card .dark-title{
+  color:black;
+
+}
 .card-title{
     color:#FFF;
     height:176px;
@@ -141,6 +145,14 @@ width:100%;
     .projects-grid{
         display:flex;
         flex-direction: column;
+    }
+    .social-links{
+      display:flex;
+      flex-direction: column;
+
+    }
+    .grid-each-card{
+      margin-bottom: 2rem!important;
     }
   }
 
