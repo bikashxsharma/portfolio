@@ -132,11 +132,13 @@ width:100%;
 }
 /*==========Card =========*/
 
+
 /*For smaller screens below 1024px*/
 
 @media only screen and (max-width: 1024px) {
     .side-nav{
         display:inline-block;
+        
     }
     .material-icons{
         display:inline-block;
@@ -162,6 +164,15 @@ width:100%;
     }
     .banner-text .name-title{
       font-size:2rem;
+    }
+    .nav-tabs{
+      display: block;
+    width: 100%;
+    margin-top: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 222;
+    background-color: white;
     }
   }
 
