@@ -16,7 +16,7 @@ class LandingPage extends React.Component{
                         <div className="banner-text">
                         <div className="name-title">Bikash Sharma</div>
                             <h2>Front-end developer with UX/UI knoweldge</h2>
-                            <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | UX/UI Design</p>
+                            <p>HTML/CSS | Bootstrap | JavaScript | React | PHP | Wordpress || UX/UI Design </p>
 
                         {/* Social Icons and links */}
                             <div className="social-links">
