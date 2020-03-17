@@ -124,6 +124,11 @@ width:100%;
   color:black;
 
 }
+.grid-each-card{
+  margin-bottom: 2rem!important;
+  min-height: 400px; 
+       
+}
 .card-title{
     color:#FFF;
     height:176px;
@@ -154,6 +159,8 @@ width:100%;
     }
     .grid-each-card{
       margin-bottom: 2rem!important;
+      min-height: 360px; 
+           
     }
     .banner-text h2{
       font-size:1.2rem;
@@ -192,6 +199,15 @@ width:100%;
         width:80%;
     }
     
+}
+@media only screen and ( max-width: 560px){
+  .social-links {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: auto;
+}
+  
 }
 /* screen size fixing ends here..*/
   .projects-grid {
@@ -250,8 +266,23 @@ width:100%;
  .card-action{
     display:flex;
     flex-direction: row;
-    width:70%;
-    justify-content: space-between;
+    justify-content: center;
     text-align: center;
+    margin-top:auto;
+   
 
+ }
+ .card-action button{
+  border:0.5px solid rgba(0, 0, 0, 0.11);
+  margin:5px;
+  width: 100%;
+ }
+ .card-tags{
+   text-transform: uppercase;
+   font-size: 1rem;
+   line-height: 1.5;
+   color:rgba(0, 0, 0, 0.562);
+   font-weight: 600;
+   text-align: center;
+   border-top: 0.5px solid rgba(0, 0, 0, 0.11);
  }
