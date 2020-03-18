@@ -55,10 +55,7 @@ class Projects extends Component {
                 </Card>
                 {/* Project 3 */}
 
-
-
-
-                <Card shadow={6} className="mdl-cell--4-col grid-each-card">
+                <Card shadow={6} style={{ margin: 'auto' }} className="mdl-cell--4-col grid-each-card">
                   <CardTitle style={{ color: '#fff', height: '250px', background: 'url(http://bikashxsharma.com/projects/thumbnails/gitTrending_thumbnail.png) center / cover' }} ></CardTitle>
                   <CardText>
                     A page that shows weekly trending at Github. Post are fetched from Github API.
@@ -83,40 +80,42 @@ class Projects extends Component {
 
               <div className="projects-grid">
                 {/* Project 1 */}
-
-
                 <Card shadow={6} style={{ margin: 'auto' }} className="mdl-cell--4-col grid-each-card">
-                  <CardTitle style={{ color: '#fff', height: '200px', background: 'url(http://bikashxsharma.com/projects/thumbnails/massage_thumbnail.png) center / cover' }} >Massage Clinic</CardTitle>
+                  <CardTitle style={{ color: '#fff', height: '200px', background: 'url(http://bikashxsharma.com/projects/thumbnails/birdwatch_thumbnail.png) center / cover' }} ></CardTitle>
                   <CardText>
-                    A responsive single page website for a massage clinic in Helsinki.
-                   </CardText>
+                    A responsive web application where users can add information about birds.
+            </CardText>
                   <CardText className="card-tags">
-                    HTML | CSS | Bootstrap | JavaScript
+                    HTML | CSS | React
                    </CardText>
                   <CardActions className="card-action" border>
 
-                    <Button colored onClick={() => window.open("https://hiraethhieronta.fi/", "_blank")}>View site</Button>
-                    <Button colored onClick={() => window.open("https://hiraethhieronta.fi/", "_blank")}>View site</Button>
+                    <Button colored onClick={() => window.open("https://birdwatch-app.netlify.com/", "_blank")}>View site</Button>
+                    <Button colored onClick={() => window.open("https://github.com/bikashxsharma/bird-watch-app", "_blank")}>Github</Button>
                   </CardActions>
 
 
                 </Card>
                 {/* Project 2 */}
+
                 <Card shadow={6} style={{ margin: 'auto' }} className="mdl-cell--4-col grid-each-card">
-                  <CardTitle style={{ color: '#fff', height: '200px', background: 'url(http://bikashxsharma.com/projects/thumbnails/velkko_thumbnail.png) center / cover' }} >Web Design Agency</CardTitle>
+                  <CardTitle style={{ color: '#fff', height: '200px', background: 'url(http://bikashxsharma.com/projects/thumbnails/massage_thumbnail.png) center / cover' }} >Massage Clinic</CardTitle>
                   <CardText>
-                    This is a website project for a landing page of web design company.
-            </CardText>
+                    A responsive single page website for a massage clinic in Helsinki for a Velko's client.
+                   </CardText>
                   <CardText className="card-tags">
                     HTML | CSS | Bootstrap | JavaScript
                    </CardText>
                   <CardActions className="card-action" border>
 
-                    <Button colored onClick={() => window.open("https://velkko.fi", "_blank")}>View site</Button>
+
+                    <Button colored onClick={() => window.open("https://hiraethhieronta.fi/", "_blank")}>View site</Button>
                   </CardActions>
 
 
                 </Card>
+
+
                 {/* Project 3 */}
                 <Card shadow={5} style={{ margin: 'auto' }} className="mdl-cell--4-col grid-each-card">
                   <CardTitle style={{ color: '#fff', height: '200px', background: 'url(http://bikashxsharma.com/projects/thumbnails/rest1_thumbnail.png) center / cover' }} >Restaurant Website</CardTitle>
